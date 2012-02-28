@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.obisapps.spacerun"
+      android:versionCode="12"
+      android:versionName="1.9.3">
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8"/>
+    <supports-screens android:smallScreens="false"/>
+    <uses-configuration android:reqTouchScreen="stylus"/>
+	<uses-configuration android:reqTouchScreen="finger"/>
+<application android:icon="@drawable/icon" android:debuggable="false" android:killAfterRestore="true" android:allowTaskReparenting="false" android:hasCode="true" android:label="Space.Sprint" android:name="com.obisapps.spacerun.SpaceSprint">
+        <activity android:name="com.obisapps.spacerun.GameActivity" android:label="Space.Sprint" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>  
+</manifest>
